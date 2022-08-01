@@ -24,6 +24,7 @@ body{
 
 img{
     width: 100%;
+    object-fit: fill;
     display: block;
 }
 
@@ -87,6 +88,7 @@ h1, h2, h3, h4, h5, h6, p {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6))
     , url("header.jpg") center/cover no-repeat;
     color: #fff;
+    width: 100%;
 }
 
 .top-nav a{
@@ -324,6 +326,12 @@ blockquote{
 }
 .insta-imgs > div{
     position: relative;
+    width: 200px;
+    height: 250px;
+    overflow: hidden;
+    margin: auto;
+    
+
 }
 .icon-overlay{
     position: absolute;
@@ -348,13 +356,11 @@ blockquote{
 
 .section-three{
     margin: 40px 0;
+    
 }
 .single-img{
     position: relative;
     margin: 10px;
-    
-    
-    
 }
 .single-img-content{
     position: absolute;
@@ -363,15 +369,110 @@ blockquote{
     right: 0;
     color: #fff;
     padding: 5px 30px;
-    background:rgba(0, 0, 0, 0.7);
-    
-    
+    background:rgba(0, 0, 0, 0.7);    
 }
 .single-img-content h3{
     font-size: 18px;
     font-weight: 300;
     text-transform: uppercase;
 }
+            /* end of gallery */
+
+            /* cennik styling */
+
+            /*section four*/
+.section-four{
+    margin: 0;
+}
+.flex-container .cennik{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.flex-container .cennik-one{
+    background: var(--darkGreen);
+    border: none;
+    display: block;
+    width: 200px;
+    text-align: center;
+    color: var(--dark);
+    text-transform: uppercase;
+    background: transparent;
+    font-size: 15px;
+    padding: 12px;
+    border: 1px solid var(--lightGreen);
+    border-radius: 15px;
+    margin: 15px 15px;
+    transition: var(--transition);
+}
+.flex-container .cennik-two{
+    background: var(--lightGrey);
+    border: none;
+    display: block;
+    width: 200px;
+    text-align: center;
+    color: var(--dark);
+    text-transform: uppercase;
+    background: transparent;
+    font-size: 15px;
+    padding: 12px;
+    border: 1px solid var(--lightGreen);
+    border-radius: 15px;
+    margin: 15px 15px;
+    transition: var(--transition);
+}
+.flex-container .cennik-three{
+    background: var(--darkGreen);
+    border: none;
+    display: block;
+    width: 200px;
+    text-align: center;
+    color: var(--dark);
+    text-transform: uppercase;
+    background: transparent;
+    font-size: 15px;
+    padding: 12px;
+    border: 1px solid var(--dark);
+    border-radius: 15px;
+    border-color: var(--lightGreen);
+    
+    margin: 15px 15px;
+    transition: var(--transition);
+}
+            /* end of gallery */
+            /* contact styling */
+
+            /* section five */
+
+.section-five{
+    margin: 40px 0;
+}
+.section-five .container div{
+    margin: 20px 0;
+}
+.contact-all div{
+    text-align: center;
+    padding: 15px 0;
+    background: var(--dark);
+    color: #fff;
+}
+.contact-all div span{
+    display: block;
+}
+.contact-icon{
+    font-size: 30px;
+}
+.contact-all div span:nth-child(2){
+    font-size: 18px;
+    font-weight: bold;
+}
+.contact-all div p{
+    font-weight: 300;
+    opacity: 0.7;
+}
+
+
             /* footer styling */
 
 .footer {
@@ -438,6 +539,12 @@ footer > p{
 @media screen and (min-width: 678px){
             /* section five */
     
+.contact-all{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+}
+}
 @media screen and (min-width: 800px){
             /* section two */
     .insta-imgs{
@@ -503,7 +610,9 @@ footer > p{
     }
 }
             /* section five */
-  
+.contact-all{
+    grid-template-columns: repeat(2, 1fr);
+}
 
 
 @media screen and (min-width: 1000px){
@@ -537,9 +646,12 @@ footer > p{
         margin-left: auto;
         margin-right: auto;
     }
-}
+
             /* section three */
-  
+    .gallery{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
 
 @media screen and (min-width: 1400px){
             /* section four */

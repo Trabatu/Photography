@@ -9,4 +9,7 @@ showBtn.addEventListener('click', function(){
         topNav.classList.add('showNav');
         showBtn.innerHTML = '<i class = "fas fa-times"></i>';
     }
-})
+});
+
+            /* LIGHTBOX */
+            var lightbox = new SimpleLightbox('.gallery a', { /* options */ });
