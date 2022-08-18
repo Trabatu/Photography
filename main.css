@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6, p {
 .header{
     min-height: 50vh;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6))
-    , url("header.jpg") center/cover no-repeat;
+    , url("jk.jpg") center/cover no-repeat;
     color: #fff;
     width: 100%;
 }
@@ -671,9 +671,6 @@ footer > p{
     /* overall styling */
     .header{
         padding-bottom: 30px;
-    }
-    .social-icons{
-        display: none;
     }
     .about-content h3{
         width: 60%;
