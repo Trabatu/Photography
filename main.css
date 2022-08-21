@@ -7,6 +7,7 @@
     --lightGrey: #6b6e70;
     --lightGreen: #86c232;
     --darkGreen: #61892f;
+    --red: #ff1616;
     --transition: all 0.5s ease;    
 }
 
@@ -55,29 +56,29 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .btn{
-    background: #ff1616;
+    background: #70a1c1;
     border: none;
     display: block;
     width: 150px;
     text-align: center;
-    color: #ff1616;
+    color: #70a1c1;
     text-transform: uppercase;
     background: transparent;
     font-size: 15px;
     padding: 12px;
-    border: 2px solid #ff1616;
+    border: 2px solid #70a1c1;
     border-radius: 25px;
     margin: 15px 0;
     transition: var(--transition);
 }
 
 .btn:hover{
-    background: #ff1616;
+    background: #70a1c1;
     color: #fff;
 }
 
 .active{
-    color: var(--lightGreen)!important;
+    color: #70a1c1!important;
 }
 
             /* End of Utility classes */
@@ -156,7 +157,7 @@ h1, h2, h3, h4, h5, h6, p {
 .top-nav ul a::after{
     content: "";
     height: 2px;
-    background: var(--lightGreen);
+    background: #70a1c1;
     position: absolute;
     bottom: -5px;
     left: 50%;
@@ -195,7 +196,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 }
 .about-content h3{
-    color: #111;
+    color: #70a1c1;
     font-size: 30px;
     font-weight: 100;
     background: rgba(255, 255, 255, 0.34);
@@ -234,8 +235,8 @@ h1, h2, h3, h4, h5, h6, p {
     justify-content: space-around;
 }
 .social-icons ul a:hover{
-    background: var(--lightGreen);
-    border-color: var(--lightGreen);
+    background: #70a1c1;
+    border-color: #70a1c1;
 }
             /* end of header */
             /* section one */
@@ -246,15 +247,16 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .sec-one-left{
 
-    background: url("jk.jpg") center/cover no-repeat;
-    background-size: 600px 500px;
+    background: url("jk.png") center/cover no-repeat;
+    background-size:contain;
+    background-color: #D9D9D9;
     box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.75);
     /* change */
     -moz-box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.75);
 }
 .sec-one-left div{
-    color: #fff;
+    color: rgba(217,217,217);
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -264,10 +266,12 @@ h1, h2, h3, h4, h5, h6, p {
 .sec-one-left div h3{
     font-size: 28px;
     opacity: 0.9;
+    color: #111;
 }
 .sec-one-left div p{
     font-weight: 300;
     opacity: 0.8;
+    color: #111;
 }
 .sec-one-right h3{
     color: var(--lightGrey);
@@ -335,10 +339,11 @@ h1, h2, h3, h4, h5, h6, p {
     margin-left: 500px;
     margin-right: 500px;
     border-radius: 25px;
+    padding: 15px;
     
 }
 .section-two span:hover{
-    background: var(--lightGreen);
+    background: #70a1c1;
     color:#000;
     transition: var(--transition);
     opacity: 0.8;
@@ -365,12 +370,12 @@ h1, h2, h3, h4, h5, h6, p {
     width: 100%;
     height: 100%;
     font-size: 50px;
-    background: rgba(134, 194, 50, 0.4);
+    background: #70a1c1;
     opacity: 0;
     transition: var(--transition);
 }
 .insta-imgs > div:hover .icon-overlay{
-    opacity: 1;
+    opacity: 0.6;
     pointer-events: none;
 }
 
@@ -506,7 +511,7 @@ h1, h2, h3, h4, h5, h6, p {
     text-align: center;
 }
 .footer-container h2{
-    color: #111;
+    color: #70a1c1;
     font-size: 36px;
     font-weight: 400;
     letter-spacing: 7px;
