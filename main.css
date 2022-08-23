@@ -256,9 +256,6 @@ h1, h2, h3, h4, h5, h6, p {
     /* change */
     -moz-box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.75);
 }
-.sec-one-left .bg{
-  
-}
 
 .sec-one-right h3{
     color: var(--lightGrey);
@@ -385,20 +382,7 @@ h1, h2, h3, h4, h5, h6, p {
     -moz-box-shadow: 0 0 8px #000;
     transition: var(--transition);
 }
-/* .single-img-content{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    color: #fff;
-    padding: 5px 30px;
-    background:rgba(0, 0, 0, 0.7);    
-} 
-.single-img-content h3{
-    font-size: 18px;
-    font-weight: 300;
-    text-transform: uppercase;
-} */
+
             /* end of gallery */
 
             /* cennik styling */
@@ -471,41 +455,7 @@ h1, h2, h3, h4, h5, h6, p {
     opacity: 0.7;
     text-align: center;
 }
-/*.subscription{
-    background: #000;
-    width: 350px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 30px auto;
-}
-.subscription i{
-    font-size: 26px;
-    flex: 10%;
-    display: block;
-}
-.subscription input{
-    flex: 60%;
-    background: transparent;
-    border: none;
-    font-size: 16px;
-    padding: 0 5px;
-    outline: 0;
-    color:#fff;
-}
-.subscription button{
-    flex: 30%;
-    font-size: 16px;
-    padding: 15px 0;
-    font-weight: bold;
-    background: var(--lightGreen);
-    border: none;
-    transition: var(--transition);
-    cursor: pointer;
-}
-.subscription button:hover{
-    color:#fff; 
-} */
+
 footer > p{
     text-align: center;
     font-size: 14px;
