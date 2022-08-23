@@ -258,7 +258,9 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .sec-one-right h3{
-    color: var(--lightGrey);
+    color: #70a1c1;
+    font-size: 22px;
+    letter-spacing: 7px;
 }
 .sec-one-right >h3{
     text-align:center;
@@ -266,6 +268,8 @@ h1, h2, h3, h4, h5, h6, p {
 .sec-one-right p{
     opacity: 0.9;
     font-weight: 300;
+    font-style: oblique;
+    font-size: 18px;
 }
 .work-content{
     margin: 50px 0;
@@ -303,6 +307,7 @@ h1, h2, h3, h4, h5, h6, p {
     font-size: 40px;
     font-weight: 300;
     font-style: italic;
+    color:#70a1c1;
 }
 .section-two .container a{
     display: flex;
@@ -454,11 +459,13 @@ h1, h2, h3, h4, h5, h6, p {
 .footer-container p{
     opacity: 0.7;
     text-align: center;
+    margin-bottom: auto;
+    font-style: oblique;
+    font-size: 18px;
 }
 
 footer > p{
     text-align: center;
-    font-size: 14px;
 }
 
             /* end of footer */
