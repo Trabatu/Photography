@@ -444,6 +444,7 @@ h1, h2, h3, h4, h5, h6, p {
     background: #D9D9D9;
     color: #111;
     padding: 5px 0;
+    
     text-align: center;
 }
 .footer-container{
@@ -452,7 +453,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .footer-container h2{
     color: #70a1c1;
-    font-size: 36px;
+    margin: auto;
+    font-size: 28px;
     font-weight: 400;
     letter-spacing: 7px;
 }
@@ -460,8 +462,7 @@ h1, h2, h3, h4, h5, h6, p {
     opacity: 0.7;
     text-align: center;
     margin-bottom: auto;
-    font-style: oblique;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 footer > p{
