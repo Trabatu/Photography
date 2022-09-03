@@ -6,4 +6,4 @@ This website is made for an photographer in a minimalistic style, fully responsi
 * SCSS ( SimpleLightbox plugin )
 * JavaScript
 ## Setup
-To run SimpleLightbox visit www.simplelightbox.com and follow the instruction.
+To run SimpleLightbox visit www.simplelightbox.com and follow the instructions.
