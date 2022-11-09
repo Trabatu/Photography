@@ -440,34 +440,44 @@ h1, h2, h3, h4, h5, h6, p {
 
             /* footer styling */
 
-.footer {
-    background: #D9D9D9;
-    color: #111;
-    padding: 5px 0;
-    
-    text-align: center;
-}
-.footer-container{
-    margin-bottom: auto;
-    text-align: center;
-}
-.footer-container h2{
-    color: #70a1c1;
-    margin: auto;
-    font-size: 28px;
-    font-weight: 400;
-    letter-spacing: 7px;
-}
-.footer-container p{
-    opacity: 0.7;
-    text-align: center;
-    margin-bottom: auto;
-    font-size: 14px;
-}
-
-footer > p{
-    text-align: center;
-}
+            .footer {
+                background: #D9D9D9;
+                color: #111;
+                padding: 5px 0;
+                
+                text-align: center;
+            }
+            .footer-container{
+                margin-bottom: auto;
+                text-align: center;
+            }
+            .footer-container h2{
+                color: #70a1c1;
+                margin: auto;
+                font-size: 28px;
+                font-weight: 400;
+                letter-spacing: 7px;
+            }
+            .footer-container p{
+                opacity: 0.7;
+                text-align: center;
+                margin-bottom: auto;
+                font-size: 14px;
+            }
+            
+            footer > p{
+                text-align: center;
+            }
+            footer span{
+                color: rgba(114, 201, 218);
+            }
+            footer a{
+                font-family: 'Saira', sans-serif;
+                cursor: pointer;
+                color: white;
+                text-decoration: none;
+                font-weight: bold;
+            }
 
             /* end of footer */
             /* media queries */
